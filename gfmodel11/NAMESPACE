@@ -1,0 +1,3 @@
+useDynLib(gfmodel11)
+exportPattern("^[[:alpha:]]+")
+importFrom(Rcpp, evalCpp)

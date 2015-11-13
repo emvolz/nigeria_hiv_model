@@ -1,0 +1,11 @@
+Package: gfmodel11
+Type: Package
+Title: Epidemic model for MSM in Nigeria
+Version: 1.0
+Date: 2015-08-21
+Author: Erik Volz
+Maintainer: Erik Volz <evolz@imperial.ac.uk>
+Description: Epidemic model for MSM in Nigeria
+License: GPL (>= 2)
+Imports: Rcpp (>= 0.12.0)
+LinkingTo: Rcpp
