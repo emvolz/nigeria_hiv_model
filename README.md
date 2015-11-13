@@ -22,5 +22,5 @@ NOTE: Running this file unmodified will require data that is not included
 * 2.  'sampleStates0.csv' : initial state of sampled patients
 if interested in using/adapting this model, or accessing full data set, contact: 
 * Erik Volz <evolz@imperial.ac.uk>
-* Man Charurat <MCharurat@ihv.umaryland.edu >
+* Man Charurat <MCharurat@ihv.umaryland.edu>
 
