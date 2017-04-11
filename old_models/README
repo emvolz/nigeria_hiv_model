@@ -1,0 +1,60 @@
+Example code from deprecated models. Note that this code will not run in standalone form. 
+
+CHANGES
+
+model 4: 
+- removed FSW
+- adapted for MAP estimation
+- change time units to days
+- fix parameters that describe source population -- set Ne of source to a large number and birth rate in source to 1
+
+
+model4.1: 
+-Increase EHI to 1 year
+- remove dprior for beta and betamsm
+- less informative priors for w1 w2
+- fix 'b' parameter in granich model
+- base granich terms on I/S totals ( same saturation for all groups )
+
+model 5:
+#~ distinct 'a' parameters for GP and MSM 
+#~ distinct assortprob for GP and MSM 
+#~ expon growth model for source deme 
+#~ explicitly model number susceptible MSM
+#~ dont parameter transform rate parameters 
+#~ priors on beta and betamsm 
+
+model 6: 
+#~ revised to make it easier to model interventions
+#~ includes diagnosed & treated classes 
+#~ incorporate dhs data into estimations
+#~ examine sensitivity to msm size
+#~ get rid of granching foi
+#~ estimate coratemodifier 
+
+model 7:
+#~ change priors
+#~ 	place maximum 30% on w's; 
+#~ 	pmsm
+#~ 		put minimum on pmsm.. .00154,
+#~ 			translates to nmsm around 1200
+#~ 		median .005 (same as before )
+#~ 			translates to nmsm around 5000
+#~ 		maximum .01 
+
+model 8: 
+- adding co rate modifier
+- estimate epsilon_d
+- secular trend pmsm
+
+model 9: 
+- linear f.t and f.t.msm
+- switch pmsm constant
+note 1 less parameter compared to m8
+
+model 10: 
+- hard constraints on inc and prevalence in prior
+
+model 11: 
+- uses logistic force of infection terms for both msm and gen pop
+
